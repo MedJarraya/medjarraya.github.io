@@ -7,7 +7,7 @@ let subtitles = ["Very good very nice"];
 let details = ["Straight from Egypt"];
 let secondaryImages = ["https://i2-prod.mirror.co.uk/incoming/article23341946.ece/ALTERNATES/s1200b/0_Silly-camel-face.jpg"];
 let startingPrices = [55, 60, 20, 0, 4, 0, 99, 0, 12, 6, 3, 7];
-let endTimes = ["Fri, 02 Feb 2023 03:04:05 GMT"]; // Make sure to fix these to UTC time so they don't change with the users timezone
+let endTimes = ["1649484000000"]; // Make sure to fix these to UTC time so they don't change with the users timezone
 
 // Random auction information
 function generateRandomAuctions() {
