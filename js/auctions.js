@@ -1,11 +1,11 @@
 // For a real auction, set this to false
-let demoAuction = true;
+let demoAuction = false;
 // For a real auction, populate these arrays
-let primaryImages = [];
-let titles = [];
-let subtitles = [];
-let details = [];
-let secondaryImages = [];
+let primaryImages = ["https://th-thumbnailer.cdn-si-edu.com/meI6eRPHs2Yk9fvDnqrD6BdYbAg=/fit-in/1600x0/https://tf-cmsv2-smithsonianmag-media.s3.amazonaws.com/filer/49/38/4938f123-986a-478c-8402-4c538201ebc4/gettyimages-1150889841.jpg"];
+let titles = ["Female Camel"];
+let subtitles = ["Very good very nice"];
+let details = ["Straight from Egypt"];
+let secondaryImages = ["https://i2-prod.mirror.co.uk/incoming/article23341946.ece/ALTERNATES/s1200b/0_Silly-camel-face.jpg"];
 let startingPrices = [55, 60, 20, 0, 4, 0, 99, 0, 12, 6, 3, 7];
 let endTimes = []; // Make sure to fix these to UTC time so they don't change with the users timezone
 
